@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RUBY_MODULE" version="4">
+  <component name="CompassSettings">
+    <option name="compassExecutableFilePath" value="$USER_HOME$/.rvm/gems/ruby-2.1.6/gems/compass-1.0.3/bin/compass" />
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.11.2, RVM: ruby-2.1.6) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="exifr (v1.2.4, RVM: ruby-2.1.6) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ffi (v1.9.10, RVM: ruby-2.1.6) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fspath (v2.1.1, RVM: ruby-2.1.6) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="god (v0.13.7, RVM: ruby-2.1.6) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="image_optim (v0.22.1, RVM: ruby-2.1.6) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="image_size (v1.4.2, RVM: ruby-2.1.6) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="in_threads (v1.3.1, RVM: ruby-2.1.6) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="progress (v3.1.1, RVM: ruby-2.1.6) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rb-inotify (v0.9.7, RVM: ruby-2.1.6) [gem]" level="application" />
+  </component>
+</module>
