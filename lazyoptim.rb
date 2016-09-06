@@ -1,8 +1,8 @@
+require 'rubygems'
+require 'bundler'
+require 'bundler/setup'
+Bundler.require(:default)
 require 'thread'
-
-loop do
-  Lazyoptim.watch
-end
 
 class Lazyoptim
   PATH = '/srv/www/nadasuge/shared/public/system'
@@ -16,3 +16,20 @@ class Lazyoptim
     end
   end
 end
+
+def main()
+  if ARGV[0].nil?
+    loop { Lazyoptim.watch }
+  else
+    queue = Queue.new
+    Dir.entries(ARGV[0]).select do |f|
+      unless File.directory?(f)
+        thread = Thread.new { ImageOptim.new.optimize_image!(f.path) }
+        queue << thread
+      end
+    end
+  end
+end
+
+main()
+
